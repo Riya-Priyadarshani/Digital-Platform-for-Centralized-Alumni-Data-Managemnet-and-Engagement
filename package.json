@@ -1,0 +1,23 @@
+{
+  "name": "digital-platform-for-centralized-alumni-data-managemnet-and-engagement",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Riya Priyadarshani",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "packageManager": "npm@11.12.1+sha512.cdca14b85d647b3192028d02aadbe82d75f79a446aceea9874be98e6d768f20ebd3555770a48d0e9906106007877bbc690f715e9372f2e2dc644a3c3157fb14c",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "ejs": "^5.0.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.1",
+    "nodemon": "^3.1.14"
+  }
+}
